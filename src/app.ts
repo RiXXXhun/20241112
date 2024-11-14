@@ -9,6 +9,12 @@ const app = express()
 
 app.use(express.json())
 app.use(logger())
+/*
+app.use("/Part", )
+app.use("/Computer", );
+app.use("/User") 
+*/
+
 
 app.listen(process.env.PORT, () => {
     console.log("Server is running")
